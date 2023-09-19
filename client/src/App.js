@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-
+import './App.css'
 function App() {
 
   // const [backendData, setBackendData] = useState([{}])
@@ -30,18 +30,25 @@ function App() {
 
 function UserPost() {
     return (
-      <table>
-        <thead>
-          <tr>
-            <td>Heading</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Text area</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="feed-post">
+        <table className="table-post">
+          <thead>
+            <tr>
+              <td>Heading</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Text area ttttttttt</td>
+            </tr>
+            <tr>
+              <td>Like button</td>
+              <td>Empty space</td>
+              <td>Comment</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     )
 }
 

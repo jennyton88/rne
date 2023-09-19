@@ -1,0 +1,16 @@
+
+body {
+    padding: 20px;
+}
+
+.feed-post {
+    color: green;
+}
+
+.table-post {
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+}

@@ -15,7 +15,13 @@ function App() {
   }, []) // array for running on first render of component
   return (
     <div>
-
+      {(typeof backendData.users === 'undefined') ? (
+        <p>loading...</p>
+      ) : (
+        backendData.users.map((user, i) => (
+          <p key ={i}>{user}</p>
+        ))
+      )}
     </div>
   )
 }

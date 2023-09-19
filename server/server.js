@@ -3,7 +3,7 @@ const app = express()
 
 // route for api
 app.get("/api", (req, res) => {
-    res.json({"users": ["userOne", "userTwo", "userThree"]}) // backend api
+    res.json({"users": ["userOne", "userTwo", "userThree", "userFour"]}) // backend api
 })
 
 // port 5000 server, port 3000 client

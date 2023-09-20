@@ -14,3 +14,15 @@ body {
 td {
     border: 1px solid #000;
 }
+
+div {
+    width: 20rem;
+    height: 20rem;
+    padding: 3rem;
+    border: 1rem solid black;
+}
+
+.text-box {
+    box-sizing: content-box;
+    background-color: yellow;
+}

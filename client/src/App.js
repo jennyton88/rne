@@ -1,5 +1,7 @@
-import React, {useEffect, useState} from 'react'
-import './App.css'
+//import React, {useEffect, useState} from 'react'
+import React from 'react';
+import './App.css';
+
 function App() {
 
   // const [backendData, setBackendData] = useState([{}])
@@ -23,7 +25,44 @@ function App() {
         ))
       )} */}
 
-      <UserPost />
+      {/* <UserPost /> */}
+
+      <Posted />
+    </div>
+  )
+}
+
+function Posted() {
+  return (
+    <div className="posted">
+      <h2>Header</h2>
+      <p>Text</p>
+      <p>like</p>
+      <p>comment</p>
+    </div>
+  )
+}
+
+function TextBox() {
+  return (
+    <div className="text-box">
+      <p>Hello</p>
+    </div>
+  )
+}
+
+function LikeButton() {
+  return (
+    <div className="like-button">
+        <button>Like</button>
+    </div>
+  )
+}
+
+function CommentButton() {
+  return (
+    <div className="comment-button">
+      <button>Comment</button>
     </div>
   )
 }
@@ -39,7 +78,7 @@ function UserPost() {
           </thead>
           <tbody>
             <tr>
-              <td>Text area ttttttttt</td>
+              <td>Text area tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</td>
             </tr>
             <tr>
               <td>Like button</td>
@@ -50,6 +89,14 @@ function UserPost() {
         </table>
       </div>
     )
+}
+
+function AddPost() {
+  return (
+    <div className="add-post">
+
+    </div>
+  )
 }
 
 export default App
